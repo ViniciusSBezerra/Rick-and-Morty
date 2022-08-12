@@ -1,0 +1,65 @@
+{
+    "tab-layout#search-bar-menu": {
+        "props": {
+            "blockClass": [
+                "teste-search-bar"
+            ],
+
+            "defaultActiveTabId": "search-menu-inv"
+        },
+        "children": [
+            "tab-list#search-bar-menu",
+            "tab-content#search-bar-menu"
+        ]
+    },
+    "tab-list#search-bar-menu": {
+        "props": {
+            "blockClass": [
+                "search-bar-menu"
+            ]
+        },
+        "children": [
+            "tab-list.item#search-bar"
+ 
+        ]
+    },
+    "tab-content#search-bar-menu": {
+        "props": {},
+        "children": [
+            "tab-content.item#search-bar"
+        ]
+    },
+    "tab-list.item#search-bar": {
+        "props": {
+            "blockClass": [
+                "search-bar-tab-layout"
+            ],
+            "tabId": "search-bar",
+            "label": "menu"
+        }
+    },
+    
+    "tab-content.item#search-bar": {
+        "props": {
+            "blockClass": "content-mobile-test",
+            "tabId": "search-bar"
+        },
+        "children": [
+
+        ]
+    },
+    "flex-layout.row#container-mobile-searh-bar": {
+        "props": {
+            "blockClass": "container-mobile-searh-bar"
+        },
+        "children": [
+         
+        ]
+    },
+  
+    "search-bar#tab-layout": {
+        "props": {
+            "placeholder": "barra de pesquisa"
+        }
+    }
+}

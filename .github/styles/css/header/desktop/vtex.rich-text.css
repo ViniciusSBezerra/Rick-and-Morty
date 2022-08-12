@@ -1,0 +1,56 @@
+/*--------------------TOP-BAR--------------------*/
+.paragraph--text-link-top-bar {
+    font-size: 14px;
+    color: #2d2d2d;
+    letter-spacing: 0.6px;
+}
+.paragraph--barra {
+
+    width: 100px;
+
+    border-right: 1px solid black;
+}
+.paragraph--hellow-user {
+    color: #5a5a5a;
+}
+.paragraph--btn-login {
+    width: 88px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #ef8216;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+/*--------------------SECOND-LINE--------------------*/
+.paragraph--link-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    font-size: 13px;
+
+    color: #5b5b5b;
+}
+.image--styles-icon-estante {
+    width: 15px;
+    height: 21px;
+
+    font-size: 13px;
+
+}
+.image--styles-icon-coracao {
+    width: 24px;
+    height: 19px;
+
+    font-size: 13px;
+
+
+}

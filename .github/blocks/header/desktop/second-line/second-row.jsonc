@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#container-second-row": {
+        "props": {
+            "blockClass": "container-second-row"
+        },
+        "children": [
+            "flex-layout.row#content-second-row"
+        ]
+    },
+    "flex-layout.row#content-second-row": {
+        "props": {
+            "blockClass": "content-second-row",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "logo",
+            "search-bar#header",
+            "rich-text#prateleira",
+            "rich-text#lista-de-desejos"
+        ]
+    },
+    "logo": {
+        
+        "props": {
+            "blockClass": ["hover"],
+            "url": "assets/images/header/logo.png"
+        }
+    },
+    "search-bar#header":{
+        
+        "props": {
+            "placeholder": "Buscar por Audiobook, autor, editora, etc ...."
+            
+        }
+    },
+    "rich-text#prateleira": {
+        "props": {
+            "blockClass":["link-menu", "styles-icon-estante", "hover"],
+            "text": "![Estante](assets/images/header/icon-estante.png) Estante"
+        }
+    },
+    "rich-text#lista-de-desejos": {
+        "props": {
+            "blockClass":["link-menu", "styles-icon-coracao", "hover"],
+            "text": "![Lista de desejos](assets/images/header/icon-wishlist.png) Lista de desejos"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.flexRowContent--container-header-lines {
+    width: 100%;
+    max-width: 1100px;
+
+    height: auto;
+
+    display: flex;
+
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+
+
+/*TOPBAR*/
+
+.flexRowContent--top-bar-container {
+    width: 100%;
+    max-width: 1100px;
+
+    height: 57px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+
+    margin-top: 20px;
+    padding: 0 10 0 10;
+}
+
+.flexRowContent--top-bar-content {
+    width: 100%;
+    max-width: 1100px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
+
+    padding: 10px;
+
+}
+
+
+/*SEGUNDA LINHA DO HEADER*/
+.flexRowContent--container-second-row {
+    width: 100%;
+    max-width: 1100px;
+    height: 83px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    margin-top: 4px;
+
+
+}
+
+.flexRowContent--content-second-row {
+
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+
+
+
+}
+
+/*TOOGLE MENU*/
+
+
+.flexRowContent--toogle-menu-container {
+
+
+    width: 100%;
+    max-width: 1100px;
+    height: 49px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+
+    margin: auto;
+
+    margin-top: 50px;
+}
+
+
+.flexRowContent--tooogle-menu-content {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: rgb(140, 71, 159);
+    background: linear-gradient(90deg, rgba(140, 71, 159, 1) 0%, rgba(1, 171, 216, 1) 100%);
+
+}
+

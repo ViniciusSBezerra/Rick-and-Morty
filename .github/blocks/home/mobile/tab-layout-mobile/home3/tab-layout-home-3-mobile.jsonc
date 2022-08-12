@@ -1,0 +1,47 @@
+{
+  "tab-list.item#home3-mobile": {
+    "props": {
+      "blockClass": [
+        "tab-menu-styles"
+      ],
+      "tabId": "home3-mobile",
+      "label": "Lançamentos"
+    }
+  },
+  "tab-content.item#home3-mobile": {
+    "children": [
+      "slider-layout#carousel-mobile-home3"
+    ],
+    "props": {
+      "tabId": "home3-mobile"
+    }
+  },
+  
+  "slider-layout#carousel-mobile-home3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-principal",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "rich-text#home3-line1-book1",
+      "rich-text#home3-line1-book2",
+      "rich-text#home3-line1-book3",
+      "rich-text#home3-line1-book4",
+      "rich-text#home3-line1-book5",
+      "rich-text#home3-line1-book6",
+      "rich-text#home3-line2-book1",
+      "rich-text#home3-line2-book2",
+      "rich-text#home3-line2-book3",
+      "rich-text#home3-line2-book4",
+      "rich-text#home3-line2-book5",
+      "rich-text#home3-line2-book6"
+    ]
+  }
+}

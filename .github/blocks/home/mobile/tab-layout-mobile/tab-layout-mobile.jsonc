@@ -1,0 +1,36 @@
+{
+    "tab-layout#home-mobile": {
+        "children": [
+          "tab-list#home-mobile",
+          "tab-content#home-mobile"
+        ],
+        "props": {
+          "blockClass": ["mobile-container-tab-list", "container-tab-layout-mobile"],
+          "defaultActiveTabId": "home1-mobile"
+        }
+      },
+      "tab-list#home-mobile": {
+        "props": {
+          "blockClass": ["mobile-container-tab-list"]
+        },
+        "children": [
+          "tab-list.item#home1-mobile",
+          "tab-list.item#home2-mobile",
+          "tab-list.item#home3-mobile",
+          "tab-list.item#home4-mobile"
+        ]
+      },
+      "tab-content#home-mobile": {
+        "props": {
+          "blockClass": [
+            "container-content-home"
+          ]
+        },
+        "children": [
+          "tab-content.item#home1-mobile",
+          "tab-content.item#home2-mobile",
+          "tab-content.item#home3-mobile"
+    
+        ]
+      }
+}

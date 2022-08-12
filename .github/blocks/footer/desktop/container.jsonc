@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#desktop-container-footer": {
+        "props": {
+            "blockClass": "desktop-container-footer",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.row#container-footer-desktop",
+            "flex-layout.row#line-footer"
+        ]
+    },
+    "flex-layout.row#container-footer": {
+        "props": {
+            "blockClass": "container-footer"
+        },
+        "children": [
+            "flex-layout.col#container-footer-left",
+            "flex-layout.col#container-footer-rigth"
+
+        ]
+    }
+}

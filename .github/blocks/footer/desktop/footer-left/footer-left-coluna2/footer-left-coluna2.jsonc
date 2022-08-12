@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#container-footer-left-items-segunda-coluna": {
+        "props": {
+            "blockClass": "container-footer-left-content"
+        },
+        "children": [
+            "rich-text#auti-books",
+            "rich-text#quem-somos-footer",
+            "rich-text#assesoria-de-imprensa"
+        ]
+    },
+    "rich-text#auti-books": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "text-bold"
+            ],
+            "text": "AUTI BOOKS"
+        }
+    },
+    "rich-text#quem-somos-footer": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Quem somos"
+        }
+    },
+    "rich-text#assesoria-de-imprensa": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Assessoria de Imprensa"
+        }
+    }
+}

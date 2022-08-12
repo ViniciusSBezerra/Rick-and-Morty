@@ -1,0 +1,134 @@
+.flexCol {
+    height: auto;
+}
+
+.flexRowContent--desktop-container-footer{
+    width: 100%;
+    max-width: 1100px;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    background: rgb(140, 71, 159);
+    background: linear-gradient(90deg, rgba(140, 71, 159, 1) 0%, rgba(1, 171, 216, 1) 100%);
+}
+
+.flexRowContent--container-footer {
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 300px;
+
+   
+
+
+}
+
+
+
+.flexColChild--container-footer-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.flexCol--container-footer-left {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+}
+
+.flexCol--container-footer-left-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.flexCol--container-footer-rigth {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flexColChild--container-footer-rigth {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flexCol--container-section-app {
+    gap: 20px;
+}
+
+
+.flexRowContent--card-container {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.flexCol--teste-footer-siga-nos {
+
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--siga-nos-desktop {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+
+.flexRow--siga-nos-desktop {
+
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+.flexRow--desktop-container-footer-line{
+    width: 100%;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+.flexRowContent--container-section-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexColChild {
+    max-width: 300px;
+}
+
+
+.flexRowContent--container-section-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexColChild {
+    max-width: 300px;
+}
+
+
+

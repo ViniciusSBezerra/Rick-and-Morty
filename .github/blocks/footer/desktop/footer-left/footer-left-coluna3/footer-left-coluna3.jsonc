@@ -1,0 +1,49 @@
+{
+    "flex-layout.col#container-footer-left-items-terceira-coluna": {
+        "props": {
+            "blockClass": "container-footer-left-content"
+        },
+        "children": [
+            "rich-text#politica-da-empresa",
+            "rich-text#politica-de-privacidade",
+            "rich-text#termo-de-uso",
+            "rich-text#cental-de-ajuda"
+        ]
+    },
+    "rich-text#politica-da-empresa": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "text-bold"
+            ],
+            "text": "POLÍTICAS DA EMPRESA"
+        }
+    },
+    "rich-text#politica-de-privacidade": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Politica de privacidade"
+        }
+    },
+    "rich-text#termo-de-uso": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Termos de Uso"
+        }
+    },
+    "rich-text#cental-de-ajuda": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Central de Ajuda (FAQ)"
+        }
+    }
+}

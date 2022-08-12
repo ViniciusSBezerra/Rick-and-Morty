@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#top-bar-container": {
+        "props": {
+            "blockClass": "top-bar-container"
+        },
+        "children": [
+            "flex-layout.row#top-bar-content"
+        ]
+    },
+   
+    "flex-layout.row#top-bar-content": {
+        "props": {
+            "blockClass": "top-bar-content",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#quem-somos",
+            "rich-text#duvidas",
+            "rich-text#contatos",
+           
+            "rich-text#meus-pedidos",
+            "rich-text#ola-usuario",
+            "rich-text#btn-login"
+        ]
+    },
+
+
+    "rich-text#quem-somos": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover"],
+            "text": "Quem Somos"
+        }
+    },
+
+    "rich-text#duvidas": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover"],
+            "text": "Dúvidas"
+        }
+    },
+
+    "rich-text#contatos": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover", "barra"],
+            "text": "Contatos"
+        }
+    },
+
+    
+    "rich-text#meus-pedidos": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover"],
+            "text": "Meus pedidos"
+        }
+    },
+
+    "rich-text#ola-usuario": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover", "hellow-user"],
+            "text": "Olá, Usuário."
+        }
+    },
+
+    "rich-text#btn-login": {
+        "props": {
+            "blockClass": ["text-link-top-bar","hover", "btn-login"],
+            "text": "Login"
+        }
+    }
+}

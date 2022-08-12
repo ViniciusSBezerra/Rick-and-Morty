@@ -1,0 +1,187 @@
+{
+    "rich-text#open-drawer": {
+        "props": {
+            "blockClass": ["image-menu", "text-transparent"],
+            "text": "![drawer-menu](assets/images/header/drawer/menu-icon.svg)teste"
+        }
+    },
+
+   
+    "flex-layout.row#user": {
+        "props": {
+            "blockClass": "section-acount"
+        },
+        "children": [
+            "rich-text#ola-visitante",
+            "rich-text#criar-conta",
+            "rich-text#tenho-conta"
+            
+        ]
+
+       
+    },
+    "rich-text#ola-visitante": {
+        "props": {
+            "text": "Olá, Visitante",
+            "blockClass": [
+                "text-white",
+                "title-drawer",
+                "container-aling-items",
+                "section-acount"
+            ]
+        }
+    },
+    "rich-text#criar-conta": {
+        "props": {
+            "text": "CRIAR CONTA",
+            "blockClass": [
+                "text-white",
+               "border",
+               "section-acount"
+            ]
+        }
+    },
+
+    "rich-text#tenho-conta": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "text-decoration",
+                "section-acount"
+
+            ],
+            "text": "Já possou conta"
+        }
+    },
+    "flex-layout.row#line-orange": {
+        "props": {
+            "blockClass": "line-orange"
+        },
+        "children": [
+            "rich-text#line-orange",
+            "rich-text#best"
+        ]
+    },
+   
+    "rich-text#line-orange": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "line-orange",
+                "width"
+            ],
+            "text": "1 audiobook todo mês por R$ 19,90"
+        }
+    },
+    "rich-text#best": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "line-orange-button",
+                "border-best"
+            ],
+            "text": "Quero ser best"
+        }
+    },
+    "rich-text#my-profile": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![meu perfil](assets/images/header/drawer/profile.svg) Meu Perfil"
+        }
+    },
+    "rich-text#shelf": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![estante](assets/images/header/drawer/estante.svg) Estante"
+        }
+    },
+    "rich-text#wishlist": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![coracao](assets/images/header/drawer/coracao.svg) Lista de Desejos"
+        }
+    },
+    "rich-text#autibest": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![auti best](assets/images/header/drawer/fone.svg) Auti Best"
+        }
+    },
+    "rich-text#cart": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![carrinho](assets/images/header/drawer/cart.svg) Carrinho de Compras"
+        }
+    },
+    "rich-text#my-requests": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer",
+                "divisao"
+            ],
+            "text": "![meus pedidos](assets/images/header/drawer/meus pedidos.svg) Meus Pedidos"
+        }
+    },
+    "rich-text#quem-somos-mobile": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![Quem Somos](assets/images/header/drawer/quem somos.svg) Quem Somos"
+        }
+    },
+    "rich-text#duvidas-mobile": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![Duvidas](assets/images/header/drawer/duvidas.svg) Duvidas"
+        }
+    },
+    "rich-text#contatos-mobile": {
+        "props": {
+            "blockClass": [
+                "text-white",
+                "items-drawer-text",
+                "itens-drawer",
+                "image-menu-drawer"
+            ],
+            "text": "![Contato](assets/images/header/drawer/contato.svg) Contato"
+        }
+    }
+}

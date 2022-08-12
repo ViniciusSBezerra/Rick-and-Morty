@@ -1,0 +1,49 @@
+{
+  "tab-list.item#home1-mobile": {
+    "props": {
+      "blockClass": [
+        "tab-menu-styles"
+      ],
+      
+      "tabId": "home1-mobile",
+      "label": "Mais vendidos"
+      
+    }
+  },
+  "tab-content.item#home1-mobile": {
+    "children": [
+      "slider-layout#carrousel-mobile-line1"
+    ],
+    "props": {
+      "tabId": "home1-mobile"
+    }
+  },
+
+  "slider-layout#carrousel-mobile-line1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-principal",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "rich-text#home1-line1-book1",
+      "rich-text#home1-line1-book2",
+      "rich-text#home1-line1-book3",
+      "rich-text#home1-line1-book4",
+      "rich-text#home1-line1-book5",
+      "rich-text#home1-line1-book6",
+      "rich-text#home1-line2-book1",
+      "rich-text#home1-line2-book2",
+      "rich-text#home1-line2-book3",
+      "rich-text#home1-line2-book4",
+      "rich-text#home1-line2-book5",
+      "rich-text#home1-line2-book6"
+    ]
+  }
+}

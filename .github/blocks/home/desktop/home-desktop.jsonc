@@ -1,0 +1,64 @@
+{
+    "responsive-layout.desktop": {
+        "children": [
+            "flex-layout.row#desktop-container-home"      
+        ]
+    },
+    "flex-layout.row#desktop-container-home": {
+        "props": {
+            "blockClass": "desktop-container-home",
+            "preventHorizontalStretch":true
+            
+        },
+        "children": [
+            "image#banner-desktop",
+            "rich-text#traco-laranja",
+            "rich-text#title",
+            "rich-text#subtitle",
+            "tab-layout#home-desktop",
+            "rich-text#outros",
+            "rich-text#textsub",
+            "slider-layout#carrousel-audiobooks-promocoes",
+            "image#img-banner",
+            "rich-text#book-list",
+            "rich-text#book-list-subtitle",
+            "slider-layout#carrousel-home",
+            "rich-text#title-search-bar",
+            "rich-text#subtitle-search-bar",
+            "flex-layout.row#desktop-search-bar"
+            
+        ]
+    },
+  
+
+    "flex-layout.row#desktop-search-bar": {
+        "props": {
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch": true,
+
+            "fullWidth": true,
+            "blockClass": ["desktop-container-search-bar"]
+        },
+        "children": [
+            "rich-text#search-bar",
+            "rich-text#send"
+        ]
+    },
+    
+  
+
+    
+    "rich-text#search-bar": {
+        "props": {
+            "blockClass": ["search-bar-copy"],
+            "text": "![envelope](assets/images/home/envelope.svg) Digite seu email"
+        }
+    },
+
+    "rich-text#send": {
+        "props": {
+            "blockClass": ["send"],
+            "text": "Enviar"
+        }
+    }
+}

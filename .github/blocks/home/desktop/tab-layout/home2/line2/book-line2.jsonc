@@ -1,0 +1,45 @@
+{
+ 
+  "rich-text#home2-line2-book1": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Sapiens](assets/images/products/home2/line2/Capa-do-audiobook-Dias-perfeitos.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line2-book2": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Estante](assets/images/products/home2/line2/Capa-do-audiobook-Quem-tem-medo-do-feminismo-negro-.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line2-book3": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Estante](assets/images/products/home2/line2/Capa-do-audiobook-Antes-do-baile-verde.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line2-book4": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Estante](assets/images/products/home2/line2/Capa-do-audiobook-Os-homens-que-nao-amavam-as-mulheres.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line2-book5": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Estante](assets/images/products/home2/line2/Capa-do-audiobook-Felicidade-da-lucro.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line2-book6": {
+    "props": {
+      "blockClass": [  "styles-image-tablayout",
+     "btn-mostrar", "hover" ],
+      "text": "![Estante](assets/images/products/home2/line2/Capa-do-audiobook-O-sol-na-cabeca.webp) Amostrar"
+    }
+  }
+}

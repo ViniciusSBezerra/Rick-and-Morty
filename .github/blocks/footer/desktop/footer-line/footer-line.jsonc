@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#line-footer": {
+        "props": {
+            "blockClass": "desktop-container-footer-line"
+        },
+
+        "children": [
+            "rich-text#copyright",
+            "rich-text#vtex"
+        ]
+    },
+
+
+    "rich-text#copyright": {
+        "props": {
+            "blockClass": ["text-color-white", "copyright"],
+            "text":"© Copyright 2022 Audiobooks Brasil S.A. CNPJ nº:31.357.547/0001-72"
+        }
+    },
+
+    "rich-text#vtex": {
+        
+        "props": {
+
+            "blockClass":["text-transparent", "logo-footer", "logo-footer-text", "logo-footer-container"],
+            "text": "![vtex](assets/images/footer/vtex-footer.svg) Amostra"
+        }
+    }
+}

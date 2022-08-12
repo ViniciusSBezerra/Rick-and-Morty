@@ -1,0 +1,336 @@
+{
+    "flex-layout.row#header-mobile-tab-layout": {
+        "props": {
+            "blockClass": "header-tab-layout-home-mobile-container"
+        },
+        "children": [
+            "tab-layout#mobile"
+        ]
+    },
+    "tab-layout#mobile": {
+        "children": [
+            "tab-list#mobile",
+            "tab-content#mobile"
+        ],
+        "props": {
+            "blockClass": "mobile-tab-layout-container",
+            "defaultActiveTabId": "home-mobile"
+        }
+    },
+    "tab-list#mobile": {
+        "props": {
+            "blockClass": [
+                "tab-list-mobile"
+            ]
+        },
+        "children": [
+            "tab-list.item#home-mobile",
+            "tab-list.item#home-mobile-categoria",
+            "tab-list.item#home-mobile-estante",
+            "tab-list.item#home-mobile-lista-desejos"
+        ]
+    },
+    "tab-list.item#home-mobile": {
+        "props": {
+            "tabId": "home-mobile",
+            "label": "Home"
+
+            
+        }
+    },
+    "tab-list.item#home-mobile-categoria": {
+        "props": {
+            "tabId": "home-mobile-categoria",
+            "label": "Categorias"
+        }
+    },
+    "tab-list.item#home-mobile-estante": {
+        "props": {
+            "tabId": "home-mobile-estante",
+            "label": "Estantes"
+        }
+    },
+    "tab-list.item#home-mobile-lista-desejos": {
+        "props": {
+            "blockClass": [
+                "tab-list-mobile"
+            ],
+            "tabId": "home-mobile-lista-desejos",
+            "label": "Lista de Desejos"
+        }
+    },
+    "tab-content#mobile": {
+        "props": {
+            "blockClass": [
+                "mobile-container-tab-layout"
+            ]
+        },
+        "children": [
+            "tab-content.item#mobile-categoria"
+        ]
+    },
+    "tab-content.item#mobile-categoria": {
+        "props": {
+            "tabId": "home-mobile-categoria"
+        },
+        "children": [
+            "rich-text#1",
+            "rich-text#2",
+            "rich-text#3",
+            "rich-text#4",
+            "rich-text#5",
+            "rich-text#6",
+            "rich-text#7",
+            "rich-text#8",
+            "rich-text#9",
+            "rich-text#10",
+            "rich-text#11",
+            "rich-text#12",
+            "rich-text#13",
+            "rich-text#14",
+            "rich-text#15",
+            "rich-text#16",
+            "rich-text#17",
+            "rich-text#18",
+            "rich-text#19",
+            "rich-text#20",
+            "rich-text#21",
+            "rich-text#22",
+            "rich-text#23",
+            "rich-text#24",
+            "rich-text#25",
+            "rich-text#26",
+            "rich-text#27",
+            "rich-text#28",
+            "rich-text#29",
+            "rich-text#31",
+            "rich-text#32",
+            "rich-text#33",
+            "rich-text#34",
+            "rich-text#35",
+            "rich-text#36"
+        ]
+    },
+    "rich-text#1": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Autoajuda"
+        }
+    },
+    "rich-text#2": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Biografia"
+        }
+    },
+    "rich-text#3": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Cinema e teatro"
+        }
+    },
+    "rich-text#4": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Clássico"
+        }
+    },
+    "rich-text#5": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Comportamento e relacionamento"
+        }
+    },
+    "rich-text#6": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Contos e crônicas"
+        }
+    },
+    "rich-text#7": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Direito"
+        }
+    },
+    "rich-text#8": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Economia"
+        }
+    },
+    "rich-text#9": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Educação"
+        }
+    },
+    "rich-text#10": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Erótico"
+        }
+    },
+    "rich-text#11": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Espiritualidade"
+        }
+    },
+    "rich-text#12": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Fantasia e ficção científica"
+        }
+    },
+    "rich-text#13": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Espiritualidade"
+        }
+    },
+    "rich-text#14": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Filosofia"
+        }
+    },
+    "rich-text#15": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Gastronomia"
+        }
+    },
+    "rich-text#16": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Gospel"
+        }
+    },
+    "rich-text#17": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "História"
+        }
+    },
+    "rich-text#18": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "História do Brasil"
+        }
+    },
+    "rich-text#19": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Infantil"
+        }
+    },
+    "rich-text#20": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Juvenil"
+        }
+    },
+    "rich-text#21": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Mídias e tecnologia"
+        }
+    },
+    "rich-text#22": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Motivação"
+        }
+    },
+    "rich-text#23": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Não ficção"
+        }
+    },
+    "rich-text#23-1": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Negócios e carreira"
+        }
+    },
+    "rich-text#24": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Outros idiomas - Espanhol"
+        }
+    },
+    "rich-text#25": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Outros idiomas - Inglês"
+        }
+    },
+    "rich-text#26": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Poesia"
+        }
+    },
+    "rich-text#27": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Política e sociedade"
+        }
+    },
+    "rich-text#28": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Psicologia"
+        }
+    },
+    "rich-text#29": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Religião"
+        }
+    },
+    "rich-text#30": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Romance histórico"
+        }
+    },
+    "rich-text#31": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Saúde e família"
+        }
+    },
+    "rich-text#32": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Suspense e ação"
+        }
+    },
+    "rich-text#33": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Viagem e aventura"
+        }
+    },
+    "rich-text#34": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Religião"
+        }
+    },
+    "rich-text#35": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Religião"
+        }
+    },
+    "rich-text#36": {
+        "props": {
+            "blockClass":"mobile-menu-categoria",
+            "text": "Religião"
+        }
+    }
+}

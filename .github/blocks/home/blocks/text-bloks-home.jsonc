@@ -1,0 +1,83 @@
+{
+  "rich-text#traco-laranja": {
+    "props": {
+      "blockClass": [
+        "traco-laranja"
+      ],
+      "text": "laranja"
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "text-title"
+      ],
+      "text": "É hora de começar a ouvir"
+    }
+  },
+  "rich-text#subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "text-subtitle"
+      ],
+      "text": "Escolha abaixo e ouça"
+    }
+  },
+  "rich-text#outros": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["text-title", "margin-top"],
+      "text": "Outros Audiobooks"
+    }
+  },
+  "rich-text#textsub": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-subtitle",
+      "text": "Escolha abaixo e ouça"
+    }
+  },
+  "rich-text#book-list": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-title",
+      "text": "Booklist"
+    }
+  },
+  "rich-text#book-list-subtitle": {
+    "props": {
+      "blockClass": [
+        "text-subtitle"
+      ],
+      "text": "Pra encontrar o que o seu humor está pedindo"
+    }
+  },
+  "rich-text#title-search-bar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "text-title"
+      ],
+      "text": "PROCURANDO PELO SEU PRÓXIMO AUDIOBOOK?"
+    }
+  },
+  "rich-text#subtitle-search-bar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "text-subtitle",
+        "quebra-linha"
+      ],
+      "text": "Receba indicações personalizadas baseada nos audiobooks que você já comprou"
+    }
+  }
+}

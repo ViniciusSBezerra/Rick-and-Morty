@@ -1,0 +1,14 @@
+.closeIconContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #00acd8;
+}
+
+.closeIconButton{
+    padding-top: 200px;
+    position: absolute;
+    
+    color: white;
+}

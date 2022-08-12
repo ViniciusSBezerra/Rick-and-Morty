@@ -1,0 +1,25 @@
+{
+  "image#banner-desktop": {
+    "props": {
+      "blockClass": [
+        "img-banner"
+      ],
+      "src": "assets/images/home/banner_encerramento_desktop.png"
+    }
+  },
+
+  "image#img-banner": {
+    "props": {
+        "blockClass": "img-banner",
+        "src": "assets/images/home/banners-site-auti-bg-desktop.png"
+    }
+},
+  "image#banner-mobile": {
+    "props": {
+      "blockClass": [
+        "img-banner-mobile"
+      ],
+      "src": "assets/images/home/mobile/banner_encerramento_mobile.jpg"
+    }
+  }
+}

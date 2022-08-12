@@ -1,0 +1,139 @@
+{
+    
+    "menu-item#autoajuda": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-Autoajuda",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Autoajuda",
+                "text": "Autoajuda"
+            }
+        }
+    },
+    "menu-item#biografia": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-biografia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "biografia",
+                "text": "Biografia"
+            }
+        }
+    },
+    "menu-item#ficcao": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-Ficcao",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ficcao",
+                "text": "Ficção"
+            }
+        }
+    },
+    "menu-item#historia": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-historia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Historia",
+                "text": "História"
+            }
+        }
+    },
+    "menu-item#negocios": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-negocios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Negocios",
+                "text": "Negócios"
+            }
+        }
+    },
+    "menu-item#poesia": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-poesia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Poesia",
+                "text": "Poesia"
+            }
+        }
+    },
+    "menu-item#suspense": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-suspense",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Suspense",
+                "text": "Suspense"
+            }
+        }
+    },
+    "menu-item#autibest": {
+        "props": {
+            "blockClass": [
+                "text-style"
+            ],
+            "id": "menu-item-autibest",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Autibest",
+                "text": "Autibest"
+            }
+        }
+    }
+}

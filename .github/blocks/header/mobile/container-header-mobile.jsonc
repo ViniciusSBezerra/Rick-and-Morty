@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#container-header-mobile": {
+        "props": {
+            "blockClass": ["container-header-mobile"]
+        },
+
+        "children": [
+            "flex-layout.row#top-bar-container-mobile",
+            "flex-layout.row#header-second-line-mobile",
+            // "flex-layout.row#container-mobile-searh-bar",
+            "flex-layout.row#header-mobile-tab-layout"
+        ]
+    }
+}

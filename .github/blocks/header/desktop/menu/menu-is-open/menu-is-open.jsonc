@@ -1,0 +1,685 @@
+{
+    "vtex.menu@2.x:submenu#categoria": {
+        "children": [
+            "vtex.menu@2.x:menu#submenushop"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenushop": {
+        "props": {
+            "blockClass": [
+                "desktop-container-submenu"
+            ]
+        },
+        "children": [
+            "flex-layout.row#line1",
+            "flex-layout.row#line2",
+            "flex-layout.row#line3",
+            "flex-layout.row#line4",
+            "flex-layout.row#line5",
+            "flex-layout.row#line6",
+            "flex-layout.row#line7",
+            "flex-layout.row#line8",
+            "flex-layout.row#line9"
+        ]
+    },
+    "flex-layout.row#line1": {
+        "props": {},
+        "children": [
+            "menu-item#autoajuda-toogle",
+            "menu-item#erotioco",
+            "menu-item#historia-brasil",
+            "menu-item#poesia-toogle"
+        ]
+    },
+    "flex-layout.row#line2": {
+        "props": {},
+        "children": [
+            "menu-item#1",
+            "menu-item#2",
+            "menu-item#3",
+            "menu-item#4"
+        ]
+    },
+    "flex-layout.row#line3": {
+        "props": {},
+        "children": [
+            "menu-item#5",
+            "menu-item#6",
+            "menu-item#7",
+            "menu-item#8"
+        ]
+    },
+    "flex-layout.row#line4": {
+        "props": {},
+        "children": [
+            "menu-item#9",
+            "menu-item#10",
+            "menu-item#11",
+            "menu-item#12"
+        ]
+    },
+    "flex-layout.row#line5": {
+        "props": {},
+        "children": [
+            "menu-item#13",
+            "menu-item#14",
+            "menu-item#15",
+            "menu-item#16"
+        ]
+    },
+    "flex-layout.row#line6": {
+        "props": {},
+        "children": [
+            "menu-item#17",
+            "menu-item#18",
+            "menu-item#19",
+            "menu-item#20"
+        ]
+    },
+    "flex-layout.row#line7": {
+        "props": {},
+        "children": [
+         
+            "menu-item#21",
+            "menu-item#22",
+            "menu-item#23",
+            "menu-item#24"
+        ]
+    },
+    "flex-layout.row#line8": {
+        "props": {},
+        "children": [
+            
+            "menu-item#25",
+            "menu-item#26",
+            "menu-item#27",
+            "menu-item#28"
+        ]
+    },
+    "flex-layout.row#line9": {
+        "props": {},
+        "children": [
+            
+            "menu-item#29",
+            "menu-item#30",
+            "menu-item#31",
+            "menu-item#32"
+        ]
+    },
+    "menu-item#autoajuda-toogle": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Autoajuda",
+                "text": "Autoajuda"
+            }
+        }
+    },
+    "menu-item#erotioco": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Erótico",
+                "text": "Erótico"
+            }
+        }
+    },
+    "menu-item#historia-brasil": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Historia do Brasil",
+                "text": "Historia do Brasil"
+            }
+        }
+    },
+    "menu-item#poesia-toogle": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Poesia",
+                "text": "Poesia"
+            }
+        }
+    },
+    "menu-item#1": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Biografia",
+                "text": "Biografia"
+            }
+        }
+    },
+    "menu-item#2": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Espiritualidade",
+                "text": "Espiritualidade"
+            }
+        }
+    },
+    "menu-item#3": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Infantial",
+                "text": "Infantial"
+            }
+        }
+    },
+    "menu-item#4": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Politica e sociedade",
+                "text": "Politica e sociedade"
+            }
+        }
+    },
+    "menu-item#5": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "cinema e teatro",
+                "text": "Cinema e teatro"
+            }
+        }
+    },
+    "menu-item#6": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Esporte e estilo de vida",
+                "text": "Esporte e estilo de vida"
+            }
+        }
+    },
+    "menu-item#7": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "juvenil",
+                "text": "juvenil"
+            }
+        }
+    },
+    "menu-item#8": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Psicologia",
+                "text": "Psicologia"
+            }
+        }
+    },
+    "menu-item#9": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Classico",
+                "text": "Classico"
+            }
+        }
+    },
+    "menu-item#10": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fantasia e ficção cientifica",
+                "text": "Fantasia e ficção cientifica"
+            }
+        }
+    },
+    "menu-item#11": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Midias e tecnologia",
+                "text": "Midias e tecnologia"
+            }
+        }
+    },
+    "menu-item#12": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Qualidade de vida",
+                "text": "Qualidade de vida"
+            }
+        }
+    },
+    "menu-item#13": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Comportamento e relacionamento",
+                "text": "Comportamento e relacionamento"
+            }
+        }
+    },
+    "menu-item#14": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ficcao e literalmente",
+                "text": "Ficcao e literalmente"
+            }
+        }
+    },
+    "menu-item#15": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "motivacao",
+                "text": "motivacao"
+            }
+        }
+    },
+    "menu-item#16": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "religiao",
+                "text": "religiao"
+            }
+        }
+    },
+    "menu-item#17": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Conto e cronicas",
+                "text": "Conto e cronicas"
+            }
+        }
+    },
+    "menu-item#18": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "filosofia",
+                "text": "filosofia"
+            }
+        }
+    },
+    "menu-item#19": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Não ficção",
+                "text": "Não ficção"
+            }
+        }
+    },
+    "menu-item#20": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Romance historico",
+                "text": "Romance historico"
+            }
+        }
+    },
+    "menu-item#21": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "direito",
+                "text": "direito"
+            }
+        }
+    },
+    "menu-item#22": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "gastronomia",
+                "text": "gastronomia"
+            }
+        }
+    },
+    "menu-item#23": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "negocios e carreira",
+                "text": "negocios e carreira"
+            }
+        }
+    },
+    "menu-item#24": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Saude e familia",
+                "text": "Saude e familia"
+            }
+        }
+    },
+    "menu-item#25": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Economia",
+                "text": "Economia"
+            }
+        }
+    },
+    "menu-item#26": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "gospel",
+                "text": "gospel"
+            }
+        }
+    },
+    "menu-item#27": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "outros idiomas - Espanhol",
+                "text": "outros idiomas - Espanhol"
+            }
+        }
+    },
+    "menu-item#28": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Suspense e Ação",
+                "text": "Suspense e Ação"
+            }
+        }
+    },
+    "menu-item#29": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Educação",
+                "text": "Educação"
+            }
+        }
+    },
+    "menu-item#30": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "História",
+                "text": "História"
+            }
+        }
+    },
+    "menu-item#31": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Outros idiomas - ingles",
+                "text": "Outros idiomas - ingles"
+            }
+        }
+    },
+    "menu-item#32": {
+        "props": {
+            "blockClass": [
+                "item-toogle-menu"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Viagem e aventura",
+                "text": "Viagem e aventura"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#container-loja-app": {
+        "props": {
+            "blockClass": "container-loja-app"
+        },
+        "children": [
+            "rich-text#app",
+            "flex-layout.row#container-apps-images"
+        ]
+    },
+    "rich-text#app": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "rich-text-footer-app"
+            ],
+            "text": "BAIXE O APP"
+        }
+    },
+    "flex-layout.row#container-apps-images": {
+        "props": {
+            "blockClass": "container-apps-images"
+        },
+        "children": [
+            "rich-text#app-store",
+            "rich-text#play-store"
+        ]
+    },
+    "rich-text#app-store": {
+        "props": {
+            "blockClass": [
+                "image-app",
+                "hover"
+            ],
+            "text": "![app store](assets/images/footer/footer-app-store.png) "
+        }
+    },
+    "rich-text#play-store": {
+        "props": {
+            "blockClass": [
+                "image-app",
+                "hover"
+            ],
+            "text": "![app store](assets/images/footer/footer-play-store.png) "
+        }
+    }
+}

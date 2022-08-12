@@ -1,0 +1,62 @@
+{
+  "rich-text#home1-line1-book1": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/products/home1/line1/sapiens.webp) Amostra"
+    }
+  },
+  "rich-text#home1-line1-book2": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home1/line1/o-poder-do-habito.webp) Amostra"
+    }
+  },
+  "rich-text#home1-line1-book3": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home1/line1/rapido-e-devagar.webp) Amostra"
+    }
+  },
+  "rich-text#home1-line1-book4": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home1/line1/helena.webp) Amostra"
+    }
+  },
+  "rich-text#home1-line1-book5": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home1/line1/brasil-uma-biografia.webp) Amostra"
+    }
+  },
+  "rich-text#home1-line1-book6": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home1/line1/mindset.webp) Amostra"
+    }
+  }
+}

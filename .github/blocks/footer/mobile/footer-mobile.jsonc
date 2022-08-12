@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#container-footer-mobile": {
+        "props": {
+            "blockClass": "container-footer-mobile"
+        },
+        "children": [
+            "image#autibooks",
+            "rich-text#siga-nos-mobile",
+            "flex-layout.row#siga-nos-mobile",
+            "image#vtex"
+        ]
+    },
+    "image#autibooks": {
+        "props": {
+            "blockClass": [
+                "logo-autibooks-mobile"
+            ],
+            "src": "assets/images/footer/mobile/autibooks.svg"
+        }
+    },
+    "rich-text#siga-nos-mobile": {
+        "props": {
+            "blockClass": [
+                "siga-nos-mobile"
+            ],
+            "text": "SIGA-NOS"
+        }
+    },
+
+    "flex-layout.row#siga-nos-mobile": {
+        "props": {
+            "blocks": "siga-nos-mobile"
+        },
+        "children": [
+            "image#linkedin","image#facebook",
+            "image#instagram", "image#twitter"
+          
+        ]
+    },
+
+    "image#facebook": {
+      "props": {
+        "blockClass": "redes-sociais-mobile",
+        "src": "assets/images/footer/redes-sociais/facebook.svg"
+        
+      }
+    },
+    "image#twitter": {
+        "props": {
+          "blockClass": "redes-sociais-mobile",
+          "src": "assets/images/footer/redes-sociais/twitter.svg"
+          
+        }
+      },
+
+      "image#linkedin": {
+        "props": {
+          "blockClass": "redes-sociais-mobile",
+          "src": "assets/images/footer/redes-sociais/linkedin.svg"
+          
+        }
+      },
+
+      "image#instagram": {
+        "props": {
+          "blockClass": "redes-sociais-mobile",
+          "src": "assets/images/footer/redes-sociais/instagram.svg"
+          
+        }
+      },
+    
+    "image#vtex": {
+        "props": {
+            "blockClass": [
+                "logo-vtex-mobile"
+            ],
+            "src": "assets/images/footer/mobile/vtex.svg"
+        }
+    }
+}

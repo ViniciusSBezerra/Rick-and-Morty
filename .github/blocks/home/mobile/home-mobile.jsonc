@@ -1,0 +1,58 @@
+{
+  
+  "responsive-layout.phone": {
+    "children": [
+      "flex-layout.row#container-home-mobile"
+    ]
+  },
+  
+  "flex-layout.row#container-home-mobile": {
+    "props": {
+
+      "blockClass": "container-home-mobile"
+      
+    },
+    "children": [
+      "image#banner-mobile",
+      "rich-text#traco-laranja",
+      "rich-text#title",
+      "rich-text#subtitle",
+      "tab-layout#home-mobile",
+      "rich-text#outros",
+      "rich-text#textsub",
+      "slider-layout#carrousel-home4",
+      "image#banner-mobile-2",
+      "rich-text#book-list",
+      "rich-text#book-list-subtitle",
+      "slider-layout#book-list",
+      "rich-text#title-search-bar",
+      "rich-text#subtitle-search-bar",
+      "flex-layout.row#mobile-search-bar"
+    
+    ]
+  },
+
+  "flex-layout.row#mobile-search-bar": {
+    "props": {
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch": true,
+
+        "fullWidth": true,
+        "blockClass": ["mobile-container-search-bar"]
+    },
+    "children": [
+        "rich-text#search-bar",
+        "rich-text#send"
+    ]
+},
+
+  "image#banner-mobile-2": {
+    "props": {
+      "blockClass": [
+        "img-banner-mobile"
+        
+      ],
+      "src": "assets/images/home/mobile/banners-site-auti-institucional-mob.png"
+    }
+  }
+}

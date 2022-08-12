@@ -1,0 +1,79 @@
+{
+  "tab-list.item#home2": {
+    "props": {
+      "blockClass": [
+        "tab-menu-styles"
+      ],
+      "tabId": "home2",
+      "label": "Para sua primeira vez"
+    }
+  },
+  "tab-content.item#home2": {
+    "props": {
+      "tabId": "home2"
+    },
+    "children": [
+      "slider-layout-group#carrousel-tab-2"
+    ]
+  },
+
+  "slider-layout-group#carrousel-tab-2": {
+    "children": [
+      "slider-layout#carrousel-home2-line1",
+      "slider-layout#carrousel-home2-line2"
+    ]
+  },
+
+ 
+ 
+
+  "slider-layout#carrousel-home2-line1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel-principal",
+
+      "showPaginationDots": "never"
+    },
+    "children": [
+   
+      "rich-text#home2-line1-book1",
+      "rich-text#home2-line1-book2",
+      "rich-text#home2-line1-book3",
+      "rich-text#home2-line1-book4",
+      "rich-text#home2-line1-book5",
+      "rich-text#home2-line1-book6"
+    ]
+  },
+
+
+  "slider-layout#carrousel-home2-line2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-principal",
+
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "rich-text#home2-line2-book1",
+      "rich-text#home2-line2-book2",
+      "rich-text#home2-line2-book3",
+      "rich-text#home2-line2-book4",
+      "rich-text#home2-line2-book5",
+      "rich-text#home2-line2-book6"
+    
+    ]
+  }
+
+}

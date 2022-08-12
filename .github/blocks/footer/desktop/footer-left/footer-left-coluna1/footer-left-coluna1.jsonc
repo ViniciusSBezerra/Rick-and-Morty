@@ -1,0 +1,53 @@
+{
+    "flex-layout.col#container-footer-left-items-primeira-coluna": {
+        "props": {
+            "blockClass": "container-footer-left-content"
+        },
+        "children": [
+            "rich-text#meu-perfil",
+            "rich-text#fazer-login",
+            "rich-text#meus-audiobooks",
+            "rich-text#meu-carrinho",
+            "rich-text#lista-pedidos"
+        ]
+    },
+    "rich-text#meu-perfil": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "text-bold"
+            ],
+            "text": "MEU PERFIL"
+        }
+    },
+    "rich-text#fazer-login": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Fazer Login"
+        }
+    },
+    "rich-text#meus-audiobooks": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer",
+                "hover"
+            ],
+            "text": "Meu Audiobooks"
+        }
+    },
+    "rich-text#meu-carrinho": {
+        "props": {
+            "blockClass": "rich-text-footer",
+            "text": "Meu Carrinho"
+        }
+    },
+    "rich-text#lista-pedidos": {
+        "props": {
+            "blockClass": "rich-text-footer",
+            "text": "Minha Lista De Pedidos"
+        }
+    }
+}

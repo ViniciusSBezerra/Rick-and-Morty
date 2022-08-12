@@ -1,0 +1,17 @@
+{
+    "flex-layout.col#container-footer-left": {
+        "props": {
+            "blockClass": "container-footer-left"
+         
+            
+        },
+        "children": [
+            "flex-layout.col#container-footer-left-items-primeira-coluna",
+            "flex-layout.col#container-footer-left-items-segunda-coluna",
+            "flex-layout.col#container-footer-left-items-terceira-coluna"
+        ]
+    }
+   
+    
+   
+}

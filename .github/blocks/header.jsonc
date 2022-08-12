@@ -1,0 +1,42 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#container-header-lines"
+    ]
+  },
+  "header-layout.mobile": {
+    "props": {
+      "blockClass": ""
+    },
+    "children": [
+      "flex-layout.row#container-header-mobile"
+    ]
+  },
+  "flex-layout.row#container-header-lines": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "container-header-lines"
+      ]
+    },
+    "children": [
+      "flex-layout.row#top-bar-container",
+      "flex-layout.row#container-second-row",
+      "vtex.menu@2.x:menu#websites"
+    ]
+  }
+}

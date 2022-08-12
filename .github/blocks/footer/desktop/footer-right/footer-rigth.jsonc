@@ -1,0 +1,14 @@
+{
+    "flex-layout.col#container-footer-rigth": {
+        "props": {
+            "blockClass": "container-footer-rigth"
+     
+        },
+        "children": [
+            "flex-layout.col#container-section-app",
+            "flex-layout.col#container-footer-siga-nos"
+        ]
+    }
+    
+   
+}

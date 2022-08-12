@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#container-section-pagamento": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "container-section-app"
+        },
+        "children": [
+            "rich-text#pagamento",
+            "rich-text#credito",
+            "flex-layout.row#accepted-payment-methods"
+        ]
+    },
+    "rich-text#pagamento": {
+        "props": {
+            "blockClass": "rich-text-footer",
+            "text": "FORMAS DE PAGAMENTO"
+        }
+    },
+    "rich-text#credito": {
+        "props": {
+            "blockClass": "rich-text-credito",
+            "text": "Crédito"
+        }
+    },
+    "flex-layout.row#accepted-payment-methods": {
+        "props": {
+           "blockClass": "card-container"
+        },
+        "children": [
+            "rich-text#visa",
+            "rich-text#mastercard",
+            "rich-text#elo",
+            "rich-text#amex",
+            "rich-text#hipercard"
+        ]
+    },
+    "rich-text#visa": {
+        "props": {
+            "blockClass": [
+                "icon-card"
+            ],
+            "text": "![visa](assets/images/footer/svgcard/visa.svg)"
+        }
+    },
+    "rich-text#mastercard": {
+        "props": {
+            "blockClass": [
+                "icon-card"
+            ],
+            "text": "![mastercard](assets/images/footer/svgcard/mastercard.svg)"
+        }
+    },
+    "rich-text#elo": {
+        "props": {
+            "blockClass": [
+                "icon-card"
+            ],
+            "text": "![elo](assets/images/footer/svgcard/elo.svg)"
+        }
+    },
+    "rich-text#amex": {
+        "props": {
+            "blockClass": [
+                "icon-card"
+            ],
+            "text": "![amex](assets/images/footer/svgcard/amex.svg)"
+        }
+    },
+    "rich-text#hipercard": {
+        "props": {
+            "blockClass": [
+                "icon-card"
+            ],
+            "text": "![hipercard](assets/images/footer/svgcard/hipercard.svg)"
+        }
+    }
+}

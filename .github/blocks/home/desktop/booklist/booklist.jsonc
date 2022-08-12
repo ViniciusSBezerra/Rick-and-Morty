@@ -1,0 +1,62 @@
+{
+  "slider-layout#carrousel-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "rich-text#book-list1",
+      "rich-text#book-list2",
+      "rich-text#book-list3",
+      "rich-text#book-list4",
+      "rich-text#book-list4"
+    ]
+  },
+  "rich-text#book-list1": {
+    "props": {
+      "blockClass": [
+        "booklist-image",
+        "text-transparent",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/home/bl-para-ficar-rico.png) Amostra"
+    }
+  },
+  "rich-text#book-list2": {
+    "props": {
+      "blockClass": [
+        "booklist-image",
+        "text-transparent",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/home/playlist-debater-2.png) Amostra"
+    }
+  },
+  "rich-text#book-list3": {
+    "props": {
+      "blockClass": [
+        "booklist-image",
+        "text-transparent",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/home/playlist-pressa.png) Amostra"
+    }
+  },
+  "rich-text#book-list4": {
+    "props": {
+      "blockClass": [
+        "booklist-image",
+        "text-transparent",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/home/bl-refletindo-sobre-a-vida.png) Amostra"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+
+    height: 48px;
+
+    border: 0;
+
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix):last-child {
+    background-color: #ef8216;
+    border: 0;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+
+}
+
+.logoContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.logoImage {
+    width: 116px;
+    height: auto;
+}
+
+.searchBarIcon--search {
+    width: 100%;
+
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon {
+    color: #fff;
+
+}
+
+
+/*homepage*/
+
+.imageElement--img-banner {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+.imageElement--logo-vtex-mobile {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(163, 108, 178);
+    background: linear-gradient(90deg, rgba(163, 108, 178, 1) 0%, rgba(51, 189, 224, 1) 100%);
+
+}
+
+.imageElement--logo-autibooks-mobile {
+    width: 90px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.imageElement--redes-sociais-mobile {
+    width: 15px;
+    height: 15px;
+}
+
+.logoImage--drawer-icon {
+    width: 56px;
+    height: 40px;
+}
+
+
+.logoImage--drawer-icon-search {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.logoContainer--drawer-icon-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.logoContainer--drawer-icon{
+    text-align: center;
+}
+
+
+.searchBarIcon--prefix{
+    background-color: blue;
+}
+
+.imageElement--img-banner-mobile{
+    margin-bottom: 50px;
+}

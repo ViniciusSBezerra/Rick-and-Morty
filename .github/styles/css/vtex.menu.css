@@ -1,0 +1,80 @@
+.menuContainerNav--desktop-container-menu-toogle {
+
+    background-image: linear-gradient(92deg, #8d479f, #00acd8);
+    margin-top: 40px;
+}
+
+.styledLinkContent--text-style {
+
+    color: #FFF;
+}
+
+.menuItem--image-menu {
+    width: auto;
+
+    background-image: url(assets/images/header/icon-menu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
+    margin-right: 80px;
+
+
+}
+
+.menuContainerNav {
+    width: 1100px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.submenuWrapper--isOpen {
+
+    width: 1100px;
+    height: 320px;
+
+    margin-top: 10px;
+
+    background-color: #2592c9;
+
+    position: absolute;
+ 
+
+    margin-top: 10px;
+  
+
+}
+
+.styledLinkContent--item-toogle-menu {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+
+    border-bottom: .5px white solid;
+}
+
+
+
+.menuContainerNav--drawer-mobile {
+    background-image: linear-gradient(0, #8d479f, #00acd8);
+
+}
+
+.menuContainer--desktop-container-submenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.styledLinkContainer--aling-items{
+    padding-left: 20px;
+}
+
+.menuContainer--desktop-container-submenu .list .flexRow:last-child{
+    border: none;
+}

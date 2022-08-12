@@ -1,0 +1,42 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "props": {
+            "blockClass": [
+                "desktop-container-menu-toogle"
+            ]
+        },
+        "children": [
+            "menu-item#categoria",
+            "menu-item#autoajuda",
+            "menu-item#biografia",
+            "menu-item#ficcao",
+            "menu-item#historia",
+            "menu-item#negocios",
+            "menu-item#poesia",
+            "menu-item#suspense",
+            "menu-item#autibest"
+        ]
+    },
+    "menu-item#categoria": {
+        "props": {
+            "blockClass": [
+                "aling-items",
+                "text-style",
+                "image-menu"
+            ],
+            "id": "menu-item-Autoajuda",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Autoajuda",
+                "text": "Categorias"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#categoria"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "slider-layout#carrousel-audiobooks-promocoes": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carousel",
+            "showPaginationDots": "never"
+        },
+        "children": [
+            "rich-text#home4-line1-book1",
+            "rich-text#home4-line1-book2",
+            "rich-text#home4-line1-book3",
+            "rich-text#home4-line1-book4",
+            "rich-text#home4-line1-book5",
+            "rich-text#home4-line1-book6"
+        ]
+    }
+}

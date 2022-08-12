@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#container-home4-content": {
+    "props": {
+      "blockClass": "home4-container-products-teste"
+    },
+    "children": [
+      "rich-text#outros",
+      "rich-text#textsub"
+    ]
+  },
+  "flex-layout.row#home4-container-line1": {
+    "props": {
+      "blockClass": "layout-product"
+    },
+    "children": [
+      "rich-text#home4-line1-book1",
+      "rich-text#home4-line1-book2",
+      "rich-text#home4-line1-book3",
+      "rich-text#home4-line1-book4",
+      "rich-text#home4-line1-book5",
+      "rich-text#home4-line1-book6"
+    ]
+  },
+  "rich-text#home4-line1-book1": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/products/home4/line1/Capa-do-audiobook-Chapeuzinho-Vermelho.jpg) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book2": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-Alice-no-Pais-das-Maravilhas.webp) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book3": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-O-livro-dos-ressignificados.webp) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book4": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-O-imperio-do-ouro-vermelho.webp) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book5": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-Enclausurado.webp) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book6": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-A-guerra-nao-tem-rosto-de-mulher.webp) Amostrar"
+    }
+  },
+  "rich-text#home4-line1-book7": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home4/line1/Capa-do-audiobook-A-guerra-dos-tronos.webp) Amostrar"
+    }
+  }
+}

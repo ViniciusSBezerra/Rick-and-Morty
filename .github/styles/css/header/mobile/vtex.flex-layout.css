@@ -1,0 +1,155 @@
+
+
+.flexRowContent--container-header-mobile{
+    width: 100%;
+   
+
+    height: auto;
+
+    background: rgb(140, 71, 159);
+    background: linear-gradient(90deg, rgba(140, 71, 159, 1) 0%, rgba(1, 171, 216, 1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexRowContent--content-second-row .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    height: 48px;
+
+    border: 0;
+
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+    border: black solid 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexRowContent--header-second-line-mobile {
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.flexRowContent--line-orange {
+    width: 100%;
+    background-color: #d97c11;
+
+    display: flex;
+
+    align-items: center;
+
+
+
+    margin-bottom: 30px;
+
+    flex-direction: row;
+
+    gap: 16px;
+}
+
+
+
+.flexRowContent--section-acount {
+    width: 100vw;
+
+    display: flex;
+
+
+    align-items: center;
+    justify-content: flex-start;
+
+
+    flex-direction: column;
+
+
+
+    padding: 20px;
+
+}
+
+
+.flexRowContent--container-header-mobile {
+    margin-bottom: 20px;
+}
+
+
+.flexRow--container-home-mobile {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HOME PAGE*/
+

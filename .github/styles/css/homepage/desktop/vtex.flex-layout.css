@@ -1,0 +1,53 @@
+.flexRowContent--desktop-container-home {
+    width: 100%;
+    max-width: 1100px;
+
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 auto;
+}
+
+
+
+
+.flexRowContent--desktop-container-search-bar {
+    width: 100%;
+    max-width: 700px;
+    height: 40px;
+
+    background-color: #e8e8e8;
+
+    border-radius: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    
+}
+
+.flexRowContent--mobile-container-search-bar{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+
+    justify-content: space-between;
+
+    background-color: #e8e8e8;
+
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+
+.flexRow--mobile-container-search-bar{
+    display: flex;
+    justify-content: center;
+}

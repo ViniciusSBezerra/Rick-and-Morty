@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#home3-container-line2": {
+    "props": {
+      "blockClass": "layout-product"
+    },
+    "children": [
+      "rich-text#home3-line2-book1",
+      "rich-text#home3-line2-book2",
+      "rich-text#home3-line2-book3",
+      "rich-text#home3-line2-book4",
+      "rich-text#home3-line2-book5",
+      "rich-text#home3-line2-book6"
+    ]
+  },
+  "rich-text#home3-line2-book1": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/products/home3/line2/Capa-do-audiobook-It--A-Coisa.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line2-book2": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line2/Capa-do-audiobook-As-sombras-de-outubro.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line2-book3": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line2/Capa-do-audiobook-Emilia-no-pais-da-gramatica---parte-1.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line2-book4": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line2/Capa-do-audiobook-Instagram-para-Negocios.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line2-book5": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line2/Capa-do-audiobook-Tudo-que-ja-nadei.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line2-book6": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line2/Capa-do-audiobook-Indomavel.webp) Amostrar"
+    }
+  }
+}

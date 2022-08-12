@@ -1,0 +1,23 @@
+{
+    "slider-layout#book-list": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "carousel",
+          "showPaginationDots": "never"
+        },
+        "children": [
+       
+          "rich-text#book-list1",
+          "rich-text#book-list2",
+          "rich-text#book-list3",
+          "rich-text#book-list4",
+          "rich-text#book-list4"
+        ]
+      }
+}

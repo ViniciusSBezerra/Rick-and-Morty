@@ -1,0 +1,77 @@
+{
+    "flex-layout.col#container-footer-siga-nos": {
+        "props": {
+            "blockClass": [
+                "teste-footer-siga-nos"
+            ]
+        },
+        "children": [
+            "rich-text#text-siga-nos-desktop",
+            "flex-layout.row#siga-nos"
+        ]
+    },
+    "rich-text#text-siga-nos-desktop": {
+        "props": {
+            "blockClass": [
+                "rich-text-footer"
+            ],
+            "text": "SIGA-NOS"
+        }
+    },
+    "flex-layout.row#siga-nos": {
+        "props": {
+            "blockClass": "siga-nos-desktop"
+        },
+        "children": [
+            "rich-text#facebook",
+            "rich-text#twitter",
+            "rich-text#linkedin",
+            "rich-text#instagram"
+        ]
+    },
+    "rich-text#facebook": {
+        "props": {
+            "blockClass": [
+                "redes-sociais",
+                "hover"
+            ],
+            "text": "![facebook](assets/images/footer/redes-sociais/facebook.svg)"
+        }
+    },
+    "rich-text#twitter": {
+        "props": {
+            "blockClass": [
+                "redes-sociais",
+                "hover"
+            ],
+            "text": "![twitter](assets/images/footer/redes-sociais/twitter.svg)"
+        }
+    },
+    "rich-text#linkedin": {
+        "props": {
+            "blockClass": [
+                "redes-sociais",
+                "hover"
+            ],
+            "text": "![linkedin](assets/images/footer/redes-sociais/linkedin.svg)"
+        }
+    },
+    "rich-text#instagram": {
+        "props": {
+            "blockClass": [
+                "redes-sociais",
+                "hover"
+            ],
+            "text": "![instagram](assets/images/footer/redes-sociais/instagram.svg)"
+        }
+    },
+    "flex-layout.row#container-teste-footer-rede": {
+        "props": {
+            "blockClass": "container-teste-footer-rede"
+        },
+        "children": [
+            "rich-text#text-siga-nos-desktop",
+            "flex-layout.row#siga-nos"
+        ]
+    }
+}

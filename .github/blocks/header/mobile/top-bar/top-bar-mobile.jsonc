@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#top-bar-container-mobile": {
+        "props": {
+            "blockClass": "top-bar-container-mobile"
+        },
+        "children": [
+            "rich-text#btn-login"
+        ]
+    },
+    "rich-text#btn-login": {
+        "props": {
+            "blockClass": [
+                "text-link-top-bar",
+                "hover",
+                "btn-login"
+            ],
+            "text": "Login"
+        }
+    }
+}

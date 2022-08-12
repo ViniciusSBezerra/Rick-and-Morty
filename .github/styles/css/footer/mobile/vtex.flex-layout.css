@@ -1,0 +1,72 @@
+
+
+.flexRowContent--top-bar-container-mobile {
+    width: 95%;
+}
+
+
+.flexRowContent--container-footer-mobile {
+    width: 100%;
+
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    flex-direction: column;
+
+    background: rgb(140, 71, 159);
+    background: linear-gradient(90deg, rgba(140, 71, 159, 1) 0%, rgba(1, 171, 216, 1) 100%);
+
+}
+
+
+.flexRowContent--siga-nos-mobile {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin: 0 auto;
+
+
+}
+
+
+
+
+.flexRowContent--container-footer-mobile .flexRowContent {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 10px;
+
+}
+
+.flexRowContent--container-footer-mobile .flexRowContent .stretchChildrenWidth {
+
+    max-width: 30px;
+    height: 30px;
+
+
+
+    background-color: hsla(0, 0%, 100%, .32);
+
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+
+
+
+
+}

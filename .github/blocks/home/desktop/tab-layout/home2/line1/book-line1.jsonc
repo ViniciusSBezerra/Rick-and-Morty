@@ -1,0 +1,63 @@
+{
+
+  "rich-text#home2-line1-book1": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/products/home2/line1/Capa-do-audiobook-Quando-presto-atencao.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line1-book2": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home2/line1/Capa-do-audiobook-Auto-da-compadecida.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line1-book3": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home2/line1/Capa-do-audiobook-1984.jpg) Amostrar"
+    }
+  },
+  "rich-text#home2-line1-book4": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home2/line1/Capa-do-audiobook-Na-minha-pele.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line1-book5": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home2/line1/Capa-do-audiobook-Estacao-Carandiru.webp) Amostrar"
+    }
+  },
+  "rich-text#home2-line1-book6": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home2/line1/gato-de-botas.webp) Amostrar"
+    }
+  }
+}

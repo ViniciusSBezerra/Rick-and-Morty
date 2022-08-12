@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#header-second-line-mobile": {
+        "props": {
+            "blockClass": "header-second-line-mobile"
+        },
+        "children": [
+            "drawer#menu-lateral",
+            "logo#mobile",
+            "tab-layout#search-bar-menu"
+        ]
+    },
+    "logo#mobile": {
+        "props": {
+            "blockClass": [
+                "drawer-icon"
+            ],
+            "url": "assets/images/header/drawer/autibooks.svg"
+        }
+    },
+    "logo#search": {
+        "props": {
+            "blockClass": [
+                "drawer-icon-search"
+            ],
+            "url": "assets/images/header/drawer/search.svg"
+        }
+    },
+   
+    "drawer#menu-lateral": {
+        "props": {
+            "isFullWidth": true,
+            "backdropMode": "none"
+        },
+        "children": [
+            "menu#drawer"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "menu#drawer": {
+        "children": [
+            "flex-layout.row#user",
+            "flex-layout.row#line-orange",
+            "rich-text#my-profile",
+            "rich-text#shelf",
+            "rich-text#wishlist",
+            "rich-text#autibest",
+            "rich-text#cart",
+            "rich-text#my-requests",
+            "rich-text#quem-somos-mobile",
+            "rich-text#duvidas-mobile",
+            "rich-text#contatos-mobile"
+        ],
+        "props": {
+            "blockClass": "drawer-mobile",
+            "orientation": "vertical"
+        }
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#open-drawer"
+        ]
+    }
+    
+}

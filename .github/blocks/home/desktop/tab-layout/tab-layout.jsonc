@@ -1,0 +1,38 @@
+{
+  "tab-layout#home-desktop": {
+    "children": [
+      "tab-list#home-desktop",
+      "tab-content#home-desktop"
+    ],
+    "props": {
+      "blockClass": "container-tab-layout"
+     
+      
+    }
+  },
+  "tab-list#home-desktop": {
+    "props": {
+      "blockClass": "desktop-container-tab-list"
+    },
+    "children": [
+      "tab-list.item#mais-vendidos",
+    
+      "tab-list.item#home2",
+      "tab-list.item#home3",
+      "tab-list.item#home4"
+    ]
+  },
+  "tab-content#home-desktop": {
+    "props": {
+      "blockClass": [
+        "container-content-home"
+      ]
+    },
+    "children": [
+      "tab-content.item#mais-vendidos",
+      "tab-content.item#home2",
+      "tab-content.item#home3"
+
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "rich-text#home3-line1-book1": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Sapiens](assets/images/products/home3/line1/Capa-do-audiobook-Talvez-voce-deva-conversar-com-alguem.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line1-book2": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line1/Capa-do-audiobook-Meu-corpo-virou-poesia.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line1-book3": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line1/Capa-do-audiobook-As-sobras-de-ontem.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line1-book4": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line1/Capa-do-audiobook-Quem-ama-educa-.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line1-book5": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line1/Capa-do-audiobook-Conto-de-Natal.webp) Amostrar"
+    }
+  },
+  "rich-text#home3-line1-book6": {
+    "props": {
+      "blockClass": [
+        "styles-image-tablayout",
+        "btn-mostrar",
+        "hover"
+      ],
+      "text": "![Estante](assets/images/products/home3/line1/Capa-do-audiobook-Hotel-Novo-Mundo.webp) Amostrar"
+    }
+  }
+}

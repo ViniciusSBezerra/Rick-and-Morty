@@ -1,0 +1,16 @@
+{
+    "flex-layout.col#container-section-app": {
+        "props": {
+           
+            "blockClass": ["container-section-app", "app"]
+        },
+        "children": [
+            "rich-text#app",
+            "flex-layout.row#container-apps-images",
+            "flex-layout.row#container-section-pagamento"
+        ]
+    }
+    
+    
+    
+}

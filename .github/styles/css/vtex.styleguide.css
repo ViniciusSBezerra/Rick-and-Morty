@@ -1,0 +1,17 @@
+
+
+.input{
+    width: 500px;
+    height: 48px;
+    background-color: #e8e8e8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+}
+
+.flexRowContent--desktop-container-home .searchBarContainer .hideDecorators{
+    background-color: black;
+}
