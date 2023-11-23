@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+## Projeto usando a api [https://rickandmortyapi.com/](https://rickandmortyapi.com/)
+
+## Figma [figma](https://www.figma.com/community/file/979477099633946456)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
