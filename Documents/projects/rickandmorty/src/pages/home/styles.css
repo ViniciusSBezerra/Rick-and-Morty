@@ -17,14 +17,20 @@
 
   color: var(--primary-500-accent, #2196f3);
   text-align: center;
-  /* BUTTON - med 14 (16px, 1.25px) */
+
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 114.286% */
+  line-height: 16px;
   letter-spacing: 1.25px;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+}
+
+.icon {
+  max-width: 600px;
+  height: 200px;
+  width: 100%;
 }

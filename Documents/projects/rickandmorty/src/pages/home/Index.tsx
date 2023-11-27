@@ -4,6 +4,8 @@ import "./styles.css";
 import { CardProps } from "../../utils/interfaces";
 import { FilterComponent } from "../../components/FilterComponent/FilterComponent";
 
+import icon from "../../assets/HomeIconLogo.svg";
+
 export const Characteres = () => {
   const [characteres, setCharacteres] = useState<CardProps | any>();
   const [count, setCount] = useState<number>(1);
@@ -26,6 +28,7 @@ export const Characteres = () => {
   }, [count]);
   return (
     <>
+      <img className="icon" src={icon} alt="Icone" />
       <FilterComponent />
       <div className="list__characteres">
         {characteres?.map(({ name, species, image }: CardProps) => (

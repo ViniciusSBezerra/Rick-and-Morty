@@ -55,3 +55,19 @@
   padding: 0 16px;
   cursor: pointer;
 }
+
+.error_message {
+  font-family: roboto, sans-serif;
+  height: 40px;
+  width: 100%;
+  background-color: #ffe6e6;
+
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff4c4c;
+  border: solid 1px #ff4c4c;
+  border-radius: 4px;
+}

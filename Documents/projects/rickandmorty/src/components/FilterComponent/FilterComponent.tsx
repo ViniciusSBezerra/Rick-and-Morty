@@ -11,6 +11,7 @@ export const FilterComponent = () => {
   const [searchSpecies, setSearchSpecies] = useState<CardProps | any>();
   const [searchGender, setSearchGender] = useState<CardProps | any>();
   const [searchStatus, setSearchStatus] = useState<CardProps | any>();
+  const [error, setError] = useState<string>();
 
   const handleInput = (e: any) => {
     setSearchName(e.target.value);
@@ -23,7 +24,8 @@ export const FilterComponent = () => {
     await fetch(`https://rickandmortyapi.com/api/character/?name=${searchName}`)
       .then((response) => response.json())
       .then((response) => {
-        console.log(response);
+        setError("");
+        if (response.error) return setError("Personagem não encontrado!");
         setSearchList(response.results);
       });
   };
@@ -72,8 +74,6 @@ export const FilterComponent = () => {
       });
   };
 
-  console.log(searchSpecies);
-
   return (
     <>
       <div className="filter__container">
@@ -96,6 +96,9 @@ export const FilterComponent = () => {
           <option selected>Species</option>
           <option value="human">Human</option>
           <option value="alien">Alien</option>
+          <option value="robot">robot</option>
+          <option value="unknown">unknown</option>
+          <option value="Mythological Creature"> Mythological Creature</option>
         </select>
 
         <select
@@ -144,6 +147,8 @@ export const FilterComponent = () => {
           ))}
         </div>
       )}
+
+      {error && <p className="error_message">{error}</p>}
     </>
   );
 };
