@@ -1,0 +1,51 @@
+.card {
+  max-width: 312px;
+  border-radius: 4px;
+  background: var(--white-high-emphasis, #fff);
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+  width: 312px;
+  height: 288px;
+  object-fit: cover;
+}
+
+.card__details {
+  padding: 12px 16px;
+}
+
+.card__name {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  margin: 0;
+}
+
+.card__species {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 240px;
+  }
+
+  .card__image {
+    width: 240px;
+    height: 168px;
+  }
+}
