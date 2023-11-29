@@ -5,6 +5,7 @@ import { CardProps } from "../../utils/interfaces";
 import { FilterComponent } from "../../components/FilterComponent/FilterComponent";
 
 import icon from "../../assets/HomeIconLogo.svg";
+import { Footer } from "../../components/footer/Footer";
 
 export const Characteres = () => {
   const [characteres, setCharacteres] = useState<CardProps | any>();
@@ -44,7 +45,10 @@ export const Characteres = () => {
           {" "}
           LOAD MORE
         </button>
-      </div>
+
+      </div >
+
+      <Footer />
     </>
   );
 };
