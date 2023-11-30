@@ -7,25 +7,29 @@ import { FilterComponent } from "../../components/FilterComponent/FilterComponen
 import icon from "../../assets/HomeIconLogo.svg";
 
 export const Characteres = () => {
-  const [characteres, setCharacteres] = useState<CardProps | any>();
+  const [characteres, setCharacteres] = useState<CardProps[] | any>([]);
   const [count, setCount] = useState<number>(1);
+  const [initialFetch, setInitialFetch] = useState(false);
 
   const pagination = () => {
     setCount(count + 1);
+    setInitialFetch(false);
   };
 
   const getCharacteres = () => {
     fetch(`https://rickandmortyapi.com/api/character/?page=${count}`)
       .then((response) => response.json())
       .then((response) => {
-        response.results;
-        setCharacteres(response.results);
+        setCharacteres([...characteres, ...response.results]);
+        setInitialFetch(true);
       });
   };
 
   useEffect(() => {
-    getCharacteres();
-  }, [count]);
+    if (!initialFetch) {
+      getCharacteres();
+    }
+  }, [count, initialFetch]);
   return (
     <>
       <img className="icon" src={icon} alt="Icone" />
