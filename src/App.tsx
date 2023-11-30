@@ -1,9 +1,11 @@
+
 import { Characteres } from "./pages/home/Index";
 
 function App() {
   return (
     <>
       <Characteres />
+
     </>
   );
 }
