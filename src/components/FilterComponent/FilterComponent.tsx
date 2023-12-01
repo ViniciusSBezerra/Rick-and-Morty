@@ -3,6 +3,7 @@ import { Card } from "../Card";
 import { CardProps } from "../../utils/interfaces";
 import "./styles.css";
 import { SearchIcon } from "../../assets/icons";
+import { useMediaQuery } from "react-responsive";
 
 export const FilterComponent = () => {
   const [searchName, setSearchName] = useState<string>("");
@@ -12,6 +13,8 @@ export const FilterComponent = () => {
   const [searchGender, setSearchGender] = useState<CardProps | any>();
   const [searchStatus, setSearchStatus] = useState<CardProps | any>();
   const [error, setError] = useState<string>();
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleInput = (e: any) => {
     setSearchName(e.target.value);
@@ -74,51 +77,121 @@ export const FilterComponent = () => {
       });
   };
 
+
+  const renderFilter = useMediaQuery({ query: "(min-width: 768px)" });
+
+
+  const toggleModal = () => {
+
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <>
+
+
+
+
       <div className="filter__container">
-        <form className="form__input" action="">
-          <input
-            className="filter__input"
-            type="text"
-            name="filter"
-            placeholder="Filter by name..."
-            onChange={handleInput}
-          />
-          <button className="button__search" onClick={searchByName}>
-            <SearchIcon />
-          </button>
-        </form>
-        <select
-          className="filter__selected"
-          onChange={handleSelectChangeSpecies}
-        >
-          <option selected>Species</option>
-          <option value="human">Human</option>
-          <option value="alien">Alien</option>
-          <option value="robot">robot</option>
-          <option value="unknown">unknown</option>
-          <option value="Mythological Creature"> Mythological Creature</option>
-        </select>
 
-        <select
-          className="filter__selected"
-          onChange={handleSelectChangeGender}
-        >
-          <option selected>Gender</option>
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select>
+        {renderFilter ? (<> <div className="filter__container">
+          <form className="form__input" action="">
+            <input
+              className="filter__input"
+              type="text"
+              name="filter"
+              placeholder="Filter by name..."
+              onChange={handleInput}
+            />
+            <button className="button__search" onClick={searchByName}>
+              <SearchIcon />
+            </button>
+          </form>
+          <select
+            className="filter__selected"
+            onChange={handleSelectChangeSpecies}
+          >
+            <option selected>Species</option>
+            <option value="human">Human</option>
+            <option value="alien">Alien</option>
+            <option value="robot">robot</option>
+            <option value="unknown">unknown</option>
+            <option value="Mythological Creature"> Mythological Creature</option>
+          </select>
 
-        <select
-          className="filter__selected"
-          onChange={handleSelectChangeStatus}
-        >
-          <option selected>Status</option>
-          <option value="alive">alive</option>
-          <option value="dead">dead</option>
-        </select>
+          <select
+            className="filter__selected"
+            onChange={handleSelectChangeGender}
+          >
+            <option selected>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+
+          <select
+            className="filter__selected"
+            onChange={handleSelectChangeStatus}
+          >
+            <option selected>Status</option>
+            <option value="alive">alive</option>
+            <option value="dead">dead</option>
+          </select>
+        </div></>) : (
+          <>
+
+            <form className="form__input" action="">
+              <input
+                className="filter__input"
+                type="text"
+                name="filter"
+                placeholder="Filter by name..."
+                onChange={handleInput}
+              />
+              <button className="button__search" onClick={searchByName}>
+                <SearchIcon />
+              </button>
+            </form>
+
+            <button className="button_open_filter" onClick={toggleModal}> Abrir modal</button>
+            {isModalOpen && (
+
+              <div className="container_select-mobile">
+
+
+                <select
+                  className="filter__selected"
+                  onChange={handleSelectChangeSpecies}
+                >
+                  <option selected>Species</option>
+                  <option value="human">Human</option>
+                  <option value="alien">Alien</option>
+                  <option value="robot">robot</option>
+                  <option value="unknown">unknown</option>
+                  <option value="Mythological Creature"> Mythological Creature</option>
+                </select>
+
+                <select
+                  className="filter__selected"
+                  onChange={handleSelectChangeGender}
+                >
+                  <option selected>Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+
+                <select
+                  className="filter__selected"
+                  onChange={handleSelectChangeStatus}
+                >
+                  <option selected>Status</option>
+                  <option value="alive">alive</option>
+                  <option value="dead">dead</option>
+                </select>
+              </div>)}</>)}
+
       </div>
+
+
       {searchList && (
         <div className="container__filter_search">
           {searchList?.map(({ name, image, species }: CardProps) => (
