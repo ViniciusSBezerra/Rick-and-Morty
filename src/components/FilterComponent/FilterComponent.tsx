@@ -4,6 +4,7 @@ import { CardProps } from "../../utils/interfaces";
 import "./styles.css";
 import { SearchIcon } from "../../assets/icons";
 import { useMediaQuery } from "react-responsive";
+import { FilterIcon } from "../../assets/FilterIcon";
 
 export const FilterComponent = () => {
   const [searchName, setSearchName] = useState<string>("");
@@ -88,10 +89,6 @@ export const FilterComponent = () => {
 
   return (
     <>
-
-
-
-
       <div className="filter__container">
 
         {renderFilter ? (<> <div className="filter__container">
@@ -152,7 +149,7 @@ export const FilterComponent = () => {
               </button>
             </form>
 
-            <button className="button_open_filter" onClick={toggleModal}> Abrir modal</button>
+            <button className="button_open_filter" onClick={toggleModal}> <FilterIcon />VER FILTROS</button>
             {isModalOpen && (
 
               <div className="container_select-mobile">
@@ -189,7 +186,7 @@ export const FilterComponent = () => {
                 </select>
               </div>)}</>)}
 
-      </div>
+      </div >
 
 
       {searchList && (
@@ -198,28 +195,35 @@ export const FilterComponent = () => {
             <Card name={name} image={image} species={species} />
           ))}
         </div>
-      )}
-      {searchSpecies && (
-        <div className="container__filter_search">
-          {searchSpecies?.map(({ name, image, species }: CardProps) => (
-            <Card name={name} image={image} species={species} />
-          ))}
-        </div>
-      )}
-      {searchGender && (
-        <div className="container__filter_search">
-          {searchGender?.map(({ name, image, species }: CardProps) => (
-            <Card name={name} image={image} species={species} />
-          ))}
-        </div>
-      )}
-      {searchStatus && (
-        <div className="container__filter_search">
-          {searchStatus?.map(({ name, image, species }: CardProps) => (
-            <Card name={name} image={image} species={species} />
-          ))}
-        </div>
-      )}
+      )
+      }
+      {
+        searchSpecies && (
+          <div className="container__filter_search">
+            {searchSpecies?.map(({ name, image, species }: CardProps) => (
+              <Card name={name} image={image} species={species} />
+            ))}
+          </div>
+        )
+      }
+      {
+        searchGender && (
+          <div className="container__filter_search">
+            {searchGender?.map(({ name, image, species }: CardProps) => (
+              <Card name={name} image={image} species={species} />
+            ))}
+          </div>
+        )
+      }
+      {
+        searchStatus && (
+          <div className="container__filter_search">
+            {searchStatus?.map(({ name, image, species }: CardProps) => (
+              <Card name={name} image={image} species={species} />
+            ))}
+          </div>
+        )
+      }
 
       {error && <p className="error_message">{error}</p>}
     </>

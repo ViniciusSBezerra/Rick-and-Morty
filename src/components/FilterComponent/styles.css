@@ -76,15 +76,14 @@
 
 
 .button_open_filter{
-
+  cursor: pointer;
   display: flex;
   width: 312px;
   height: 56px;
   padding: 10px 16px;
   justify-content: center;
   align-items: center;
-  /* gap: 10px; */
-  /* flex-shrink: 0; */
+
   border-radius: 4px;
   background: var(--primary-50, #E3F2FD);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
@@ -98,7 +97,9 @@
   line-height: 16px;
   letter-spacing: 1.25px;
   text-transform: uppercase;
+  gap: 24px;
 }
+
 
 .container_select-mobile{
   display: flex;
