@@ -49,14 +49,19 @@
 
 .filter__selected {
   width: 100%;
-
   height: 56px;
-
   border: 1px solid var(--grey, rgba(0, 0, 0, 0.5));
   border-radius: 8px;
   padding: 0 16px;
   cursor: pointer;
+  background-repeat: no-repeat ;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_496_70)'%3E%3Cpath d='M7 10L12 15L17 10H7Z' fill='black' fill-opacity='0.54'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_496_70'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center right 16px; 
+
 }
+
 
 .error_message {
   font-family: roboto, sans-serif;
@@ -105,6 +110,12 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.arrow__down{
+  width: 24px;
+  height: 24px;
+  display: flex;
 }
 
 @media (min-width: 768px) {

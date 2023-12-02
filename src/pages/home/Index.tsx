@@ -33,7 +33,9 @@ export const Characteres = () => {
   }, [count, initialFetch]);
   return (
     <>
-      <img className="icon" src={icon} alt="Icone" />
+      <div className="container__icon">
+        <img className="icon" src={icon} alt="Icone" />
+      </div>
       <FilterComponent />
       <div className="list__characteres">
         {characteres?.map(({ name, species, image }: CardProps) => (
