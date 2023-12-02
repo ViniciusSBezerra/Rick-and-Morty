@@ -5,6 +5,7 @@ import "./styles.css";
 import { SearchIcon } from "../../assets/icons";
 import { useMediaQuery } from "react-responsive";
 import { FilterIcon } from "../../assets/FilterIcon";
+import { CloseIcon } from "../../assets/CloseIcon";
 
 export const FilterComponent = () => {
   const [searchName, setSearchName] = useState<string>("");
@@ -47,7 +48,10 @@ export const FilterComponent = () => {
       .then((response) => response.json())
       .then((response) => {
         setSearchSpecies(response.results);
+
       });
+
+    toggleModal()
   };
 
   const handleSelectChangeGender = async (event: any) => {
@@ -57,11 +61,15 @@ export const FilterComponent = () => {
 
     if (selected === undefined) return null;
 
+
     await fetch(`https://rickandmortyapi.com/api/character/?gender=${selected}`)
       .then((response) => response.json())
       .then((response) => {
         setSearchGender(response.results);
+
       });
+
+    toggleModal()
   };
 
   const handleSelectChangeStatus = async (event: any) => {
@@ -76,6 +84,7 @@ export const FilterComponent = () => {
       .then((response) => {
         setSearchStatus(response.results);
       });
+    toggleModal()
   };
 
 
@@ -83,9 +92,10 @@ export const FilterComponent = () => {
 
 
   const toggleModal = () => {
-
     setIsModalOpen(!isModalOpen);
   };
+
+  console.log(isModalOpen)
 
   return (
     <>
@@ -154,36 +164,43 @@ export const FilterComponent = () => {
 
               <div className="container_select-mobile">
 
+                <div className="select__wrapper">
 
-                <select
-                  className="filter__selected"
-                  onChange={handleSelectChangeSpecies}
-                >
-                  <option selected>Species</option>
-                  <option value="human">Human</option>
-                  <option value="alien">Alien</option>
-                  <option value="robot">robot</option>
-                  <option value="unknown">unknown</option>
-                  <option value="Mythological Creature"> Mythological Creature</option>
-                </select>
+                  <div className="select__wrapper__header">
+                    <p className="select__title">Filtros</p>
 
-                <select
-                  className="filter__selected"
-                  onChange={handleSelectChangeGender}
-                >
-                  <option selected>Gender</option>
-                  <option value="Male">Male</option>
-                  <option value="Female">Female</option>
-                </select>
+                    <button onClick={toggleModal} className="close"><CloseIcon /></button>
+                  </div>
+                  <select
+                    className="filter__selected"
+                    onChange={handleSelectChangeSpecies}
+                  >
+                    <option selected>Species</option>
+                    <option value="human">Human</option>
+                    <option value="alien">Alien</option>
+                    <option value="robot">robot</option>
+                    <option value="unknown">unknown</option>
+                    <option value="Mythological Creature"> Mythological Creature</option>
+                  </select>
 
-                <select
-                  className="filter__selected"
-                  onChange={handleSelectChangeStatus}
-                >
-                  <option selected>Status</option>
-                  <option value="alive">alive</option>
-                  <option value="dead">dead</option>
-                </select>
+                  <select
+                    className="filter__selected"
+                    onChange={handleSelectChangeGender}
+                  >
+                    <option selected>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+
+                  <select
+                    className="filter__selected"
+                    onChange={handleSelectChangeStatus}
+                  >
+                    <option selected>Status</option>
+                    <option value="alive">alive</option>
+                    <option value="dead">dead</option>
+                  </select>
+                </div>
               </div>)}</>)}
 
       </div >
