@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Card } from "../../components/Card";
 import "./styles.css";
 import { CardProps } from "../../utils/interfaces";
@@ -6,11 +6,18 @@ import { FilterComponent } from "../../components/FilterComponent/FilterComponen
 
 import icon from "../../assets/HomeIconLogo.svg";
 import { Footer } from "../../components/footer/Footer";
+import { Header } from "../../components/header/header";
+
+import { RickAndMortyContext } from "../../context/Context";
+import { Episodes } from "../episodes/Episodes";
+import { Locations } from "../Locations/Locations";
 
 export const Characteres = () => {
   const [characteres, setCharacteres] = useState<CardProps[] | any>([]);
   const [count, setCount] = useState<number>(1);
   const [initialFetch, setInitialFetch] = useState(false);
+
+  const { step } = useContext(RickAndMortyContext)
 
   const pagination = () => {
     setCount(count + 1);
@@ -33,11 +40,16 @@ export const Characteres = () => {
   }, [count, initialFetch]);
   return (
     <>
-      <div className="container__icon">
-        <img className="icon" src={icon} alt="Icone" />
-      </div>
-      <FilterComponent />
-      <div className="list__characteres">
+      <Header />
+
+
+
+      {console.log(step)}
+      {step === 1 && (<div className="list__characteres">
+        <div className="container__icon">
+          <img className="icon" src={icon} alt="Icone" />
+        </div>
+        <FilterComponent />
         {characteres?.map(({ name, species, image }: CardProps) => (
           <>
             <Card image={image} name={name} species={species} />
@@ -53,6 +65,10 @@ export const Characteres = () => {
         </button>
 
       </div >
+      )}
+
+      {step === 2 && (<Episodes />)}
+      {step === 3 && (<Locations />)}
 
       <Footer />
     </>
