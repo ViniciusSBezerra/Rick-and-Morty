@@ -1,19 +1,20 @@
 import { createContext, useContext, useState } from "react";
-import { CardProps } from "../utils/interfaces";
-import { RickAndMortyProviderProps } from '../utils/interfaces'
+import { RickAndMortyProviderProps } from "../utils/interfaces";
 
-export const RickAndMortyContext = createContext<RickAndMortyProviderProps>({} as RickAndMortyProviderProps)
+const data: RickAndMortyProviderProps = {} as RickAndMortyProviderProps
+
+export const RickAndMortyContext = createContext(data)
 
 
-export const RickAndMortyProvider: React.FC<RickAndMortyProviderProps> = ({ children }) => {
+export const RickAndMortyProvider: React.FC<any> = ({ children }) => {
     const [step, setStep] = useState(1)
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [error, setError] = useState<string>('');
     const [searchName, setSearchName] = useState<string>("");
-    const [searchList, setSearchList] = useState<CardProps | any>();
-    const [searchSpecies, setSearchSpecies] = useState<CardProps | any>();
-    const [searchGender, setSearchGender] = useState<CardProps | any>();
-    const [searchStatus, setSearchStatus] = useState<CardProps | any>();
+    const [searchList, setSearchList] = useState();
+    const [searchSpecies, setSearchSpecies] = useState([]);
+    const [searchGender, setSearchGender] = useState([]);
+    const [searchStatus, setSearchStatus] = useState([]);
     const [isFilterOpen, setIsFilterOpen] = useState(false);
 
     const toggleModal = () => {
@@ -30,7 +31,7 @@ export const RickAndMortyProvider: React.FC<RickAndMortyProviderProps> = ({ chil
 
 
     return (
-        <RickAndMortyContext.Provider value={{ step, isModalOpen, error, setStep, toggleModal, setError, searchName, setSearchName, searchList, setSearchList, searchSpecies, setSearchSpecies, searchGender, setSearchGender, searchStatus, setSearchStatus, isFilterOpen, setIsFilterOpen, toggleFilter, handleInput } as RickAndMortyProviderProps}>
+        <RickAndMortyContext.Provider value={{ step, isModalOpen, error, setStep, toggleModal, setError, searchName, setSearchName, searchList, setSearchList, searchSpecies, setSearchSpecies, searchGender, setSearchGender, searchStatus, setSearchStatus, isFilterOpen, setIsFilterOpen, toggleFilter, handleInput }}>
             {children}
         </RickAndMortyContext.Provider>
     )

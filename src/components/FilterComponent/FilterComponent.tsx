@@ -194,7 +194,7 @@ export const FilterComponent = () => {
 
       {searchList && (
         <div className="container__filter_search">
-          {searchList?.map(({ name, image, species }) => (
+          {searchList?.map(({ name, image, species }: CardProps) => (
             <Card name={name} image={image} species={species} />
           ))}
         </div>
