@@ -2,13 +2,13 @@ import { createContext, useContext, useState } from "react";
 import { CardProps } from "../utils/interfaces";
 import { RickAndMortyProviderProps } from '../utils/interfaces'
 
-export const RickAndMortyContext = createContext<any>('')
+export const RickAndMortyContext = createContext<RickAndMortyProviderProps>({} as RickAndMortyProviderProps)
 
 
 export const RickAndMortyProvider: React.FC<RickAndMortyProviderProps> = ({ children }) => {
     const [step, setStep] = useState(1)
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [error, setError] = useState<string>();
+    const [error, setError] = useState<string>('');
     const [searchName, setSearchName] = useState<string>("");
     const [searchList, setSearchList] = useState<CardProps | any>();
     const [searchSpecies, setSearchSpecies] = useState<CardProps | any>();
@@ -30,7 +30,7 @@ export const RickAndMortyProvider: React.FC<RickAndMortyProviderProps> = ({ chil
 
 
     return (
-        <RickAndMortyContext.Provider value={{ step, isModalOpen, error, setStep, toggleModal, setError, searchName, setSearchName, searchList, setSearchList, searchSpecies, setSearchSpecies, searchGender, setSearchGender, searchStatus, setSearchStatus, isFilterOpen, setIsFilterOpen, toggleFilter, handleInput }}>
+        <RickAndMortyContext.Provider value={{ step, isModalOpen, error, setStep, toggleModal, setError, searchName, setSearchName, searchList, setSearchList, searchSpecies, setSearchSpecies, searchGender, setSearchGender, searchStatus, setSearchStatus, isFilterOpen, setIsFilterOpen, toggleFilter, handleInput } as RickAndMortyProviderProps}>
             {children}
         </RickAndMortyContext.Provider>
     )
