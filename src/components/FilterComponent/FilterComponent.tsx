@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Card } from "../Card";
 import { CardProps } from "../../utils/interfaces";
 import "./styles.css";
@@ -6,21 +6,12 @@ import { SearchIcon } from "../../assets/icons";
 import { useMediaQuery } from "react-responsive";
 import { FilterIcon } from "../../assets/FilterIcon";
 import { CloseIcon } from "../../assets/CloseIcon";
+import { useRickAndMortyContext } from "../../context/Context";
 
 export const FilterComponent = () => {
-  const [searchName, setSearchName] = useState<string>("");
 
-  const [searchList, setSearchList] = useState<CardProps | any>();
-  const [searchSpecies, setSearchSpecies] = useState<CardProps | any>();
-  const [searchGender, setSearchGender] = useState<CardProps | any>();
-  const [searchStatus, setSearchStatus] = useState<CardProps | any>();
-  const [error, setError] = useState<string>();
+  const { error, setError, searchName, searchList, setSearchList, searchSpecies, setSearchSpecies, searchGender, setSearchGender, searchStatus, setSearchStatus, isFilterOpen, toggleFilter, handleInput } = useRickAndMortyContext()
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleInput = (e: any) => {
-    setSearchName(e.target.value);
-  };
 
   const searchByName = async (e: any) => {
     e.preventDefault();
@@ -51,7 +42,7 @@ export const FilterComponent = () => {
 
       });
 
-    toggleModal()
+    toggleFilter()
   };
 
   const handleSelectChangeGender = async (event: any) => {
@@ -69,7 +60,7 @@ export const FilterComponent = () => {
 
       });
 
-    toggleModal()
+    toggleFilter()
   };
 
   const handleSelectChangeStatus = async (event: any) => {
@@ -84,18 +75,13 @@ export const FilterComponent = () => {
       .then((response) => {
         setSearchStatus(response.results);
       });
-    toggleModal()
+    toggleFilter()
   };
 
 
   const renderFilter = useMediaQuery({ query: "(min-width: 768px)" });
 
 
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-  };
-
-  console.log(isModalOpen)
 
   return (
     <>
@@ -159,8 +145,8 @@ export const FilterComponent = () => {
               </button>
             </form>
 
-            <button className="button_open_filter" onClick={toggleModal}> <FilterIcon />VER FILTROS</button>
-            {isModalOpen && (
+            <button className="button_open_filter" onClick={toggleFilter}> <FilterIcon />VER FILTROS</button>
+            {isFilterOpen && (
 
               <div className="container_select-mobile">
 
@@ -169,7 +155,7 @@ export const FilterComponent = () => {
                   <div className="select__wrapper__header">
                     <p className="select__title">Filtros</p>
 
-                    <button onClick={toggleModal} className="close"><CloseIcon /></button>
+                    <button onClick={toggleFilter} className="close"><CloseIcon /></button>
                   </div>
                   <select
                     className="filter__selected"
@@ -208,7 +194,7 @@ export const FilterComponent = () => {
 
       {searchList && (
         <div className="container__filter_search">
-          {searchList?.map(({ name, image, species }: CardProps) => (
+          {searchList?.map(({ name, image, species }) => (
             <Card name={name} image={image} species={species} />
           ))}
         </div>
@@ -246,3 +232,4 @@ export const FilterComponent = () => {
     </>
   );
 };
+

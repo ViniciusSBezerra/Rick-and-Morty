@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "../../components/Card";
 import "./styles.css";
 import { CardProps } from "../../utils/interfaces";
@@ -8,7 +8,7 @@ import icon from "../../assets/HomeIconLogo.svg";
 import { Footer } from "../../components/footer/Footer";
 import { Header } from "../../components/header/header";
 
-import { RickAndMortyContext } from "../../context/Context";
+import { useRickAndMortyContext } from "../../context/Context";
 import { Episodes } from "../episodes/Episodes";
 import { Locations } from "../Locations/Locations";
 
@@ -17,7 +17,7 @@ export const Characteres = () => {
   const [count, setCount] = useState<number>(1);
   const [initialFetch, setInitialFetch] = useState(false);
 
-  const { step } = useContext(RickAndMortyContext)
+  const { step } = useRickAndMortyContext()
 
   const pagination = () => {
     setCount(count + 1);
@@ -42,9 +42,6 @@ export const Characteres = () => {
     <>
       <Header />
 
-
-
-      {console.log(step)}
       {step === 1 && (<div className="list__characteres">
         <div className="container__icon">
           <img className="icon" src={icon} alt="Icone" />

@@ -1,19 +1,13 @@
-import { useContext, useState } from "react";
+
 import { HambuguerIcon } from "../../assets/HamburguerIcon"
 import icon from "../../assets/headerIcon.svg"
 import { CloseIcon } from "../../assets/CloseIcon";
-import { RickAndMortyContext } from "../../context/Context";
+import { useRickAndMortyContext } from "../../context/Context";
 
 
 export const HeaderMobile = () => {
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    const { setStep } = useContext(RickAndMortyContext)
-    const toggleModal = () => {
-        setIsModalOpen(!isModalOpen);
-    };
-
+    const { setStep, toggleModal, isModalOpen } = useRickAndMortyContext()
 
     return (
         <div className="header__mobile">
