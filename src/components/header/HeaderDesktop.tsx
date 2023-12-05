@@ -1,11 +1,8 @@
 import icon from "../../assets/headerIcon.svg"
-import { RickAndMortyContext } from "../../context/Context"
-import { useContext } from "react"
+import { useRickAndMortyContext } from "../../context/Context"
 export const HeaderDesktop = () => {
 
-    const { setStep } = useContext(RickAndMortyContext)
-
-
+    const { setStep } = useRickAndMortyContext()
 
     return (
 
