@@ -8,6 +8,7 @@
 }
 
 .filter__container {
+  width: 100%;
   gap: 16px;
   display: flex;
   max-width: 1024px;
@@ -83,7 +84,7 @@
 .button_open_filter{
   cursor: pointer;
   display: flex;
-  width: 312px;
+  width: 100%;
   height: 56px;
   padding: 10px 16px;
   justify-content: center;

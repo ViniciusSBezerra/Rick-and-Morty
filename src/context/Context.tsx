@@ -1,20 +1,22 @@
-import { createContext, useContext, useState } from "react";
-import { RickAndMortyProviderProps } from "../utils/interfaces";
-
-const data: RickAndMortyProviderProps = {} as RickAndMortyProviderProps
-
-export const RickAndMortyContext = createContext(data)
+import { createContext, useContext, useState, } from "react";
 
 
-export const RickAndMortyProvider: React.FC<any> = ({ children }) => {
-    const [step, setStep] = useState(1)
+interface RickAndMortyProviderProps {
+    children: React.ReactNode
+}
+
+export const RickAndMortyContext = createContext<any>('')
+
+
+export const RickAndMortyProvider: React.FC<RickAndMortyProviderProps> = ({ children }) => {
+    const [step, setStep] = useState<number>(1)
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [error, setError] = useState<string>('');
-    const [searchName, setSearchName] = useState<string>("");
-    const [searchList, setSearchList] = useState();
-    const [searchSpecies, setSearchSpecies] = useState([]);
-    const [searchGender, setSearchGender] = useState([]);
-    const [searchStatus, setSearchStatus] = useState([]);
+    const [searchName, setSearchName] = useState<string[]>([]);
+    const [searchList, setSearchList] = useState<string[]>([]);
+    const [searchSpecies, setSearchSpecies] = useState<string[]>([]);
+    const [searchGender, setSearchGender] = useState<string[]>([]);
+    const [searchStatus, setSearchStatus] = useState<string[]>([])
     const [isFilterOpen, setIsFilterOpen] = useState(false);
 
     const toggleModal = () => {
@@ -37,7 +39,7 @@ export const RickAndMortyProvider: React.FC<any> = ({ children }) => {
     )
 }
 
-export const useRickAndMortyContext = (): RickAndMortyProviderProps => {
+export const useRickAndMortyContext = () => {
     const context = useContext(RickAndMortyContext)
 
     if (!context) {

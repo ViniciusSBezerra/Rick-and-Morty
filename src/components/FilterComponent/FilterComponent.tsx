@@ -81,8 +81,6 @@ export const FilterComponent = () => {
 
   const renderFilter = useMediaQuery({ query: "(min-width: 768px)" });
 
-
-
   return (
     <>
       <div className="filter__container">
@@ -192,40 +190,41 @@ export const FilterComponent = () => {
       </div >
 
 
-      {searchList && (
+      {searchList.length ? (
         <div className="container__filter_search">
           {searchList?.map(({ name, image, species }: CardProps) => (
             <Card name={name} image={image} species={species} />
           ))}
         </div>
-      )
+      ) : null
       }
       {
-        searchSpecies && (
+        searchSpecies.length ? (
           <div className="container__filter_search">
             {searchSpecies?.map(({ name, image, species }: CardProps) => (
               <Card name={name} image={image} species={species} />
             ))}
           </div>
-        )
+        ) : null
       }
       {
-        searchGender && (
+        searchGender.length ? (
           <div className="container__filter_search">
             {searchGender?.map(({ name, image, species }: CardProps) => (
               <Card name={name} image={image} species={species} />
             ))}
           </div>
-        )
+        ) : null
+
       }
       {
-        searchStatus && (
+        searchStatus.length ? (
           <div className="container__filter_search">
             {searchStatus?.map(({ name, image, species }: CardProps) => (
               <Card name={name} image={image} species={species} />
             ))}
           </div>
-        )
+        ) : null
       }
 
       {error && <p className="error_message">{error}</p>}

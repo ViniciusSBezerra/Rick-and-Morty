@@ -42,26 +42,28 @@ export const Characteres = () => {
     <>
       <Header />
 
-      {step === 1 && (<div className="list__characteres">
-        <div className="container__icon">
-          <img className="icon" src={icon} alt="Icone" />
-        </div>
-        <FilterComponent />
-        {characteres?.map(({ name, species, image }: CardProps) => (
-          <>
-            <Card image={image} name={name} species={species} />
-          </>
-        ))}
+      {step === 1 && (
 
-        <button
-          onClick={() => pagination()}
-          className="list__characteres__load__more"
-        >
-          {" "}
-          LOAD MORE
-        </button>
+        <div className="list__characteres">
+          <div className="container__icon">
+            <img className="icon" src={icon} alt="Icone" />
+          </div>
+          <FilterComponent />
+          {characteres?.map(({ name, species, image }: CardProps) => (
+            <>
+              <Card image={image} name={name} species={species} />
+            </>
+          ))}
 
-      </div >
+          <button
+            onClick={() => pagination()}
+            className="list__characteres__load__more"
+          >
+            {" "}
+            LOAD MORE
+          </button>
+
+        </div >
       )}
 
       {step === 2 && (<Episodes />)}
